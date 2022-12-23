@@ -38,7 +38,7 @@ return password;
 function getPrompts() {
   choicerArr =[];
 
-  characterLength = parseInt(prompt("How many characters do you want your password to be? (8 - 128 characters"));
+  characterLength = parseInt(prompt("Password must contain at least 8 characters max 128"));
 
   if (isNaN(characterLength) || characterLength < 8 || characterLength > 128) {
     alert("characters length has to be a number, 8 - 128 digits. Please try again.");
