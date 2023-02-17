@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <main>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -12,23 +13,19 @@
       <header>
         <h1>Password Generator</h1>
       </header>
-      <div class="card">
+    <div class="card">
         <div class="card-header">
           <h2>Generate a Password</h2>
-        </div>
+    </div>
         <div class="card-body">
-          <textarea
-            readonly
-            id="password"
-            placeholder="Your Secure Password"
-            aria-label="Generated Password"
-          ></textarea>
+          <pre class="text-light bg-light p-5" ></pre>
+          <textarea id="password">Generated password will show here</textarea>
         </div>
-        <div class="card-footer">
-          <button id="generate" class="btn">Generate Password</button>
-        </div>
+         <button id="password-btn" class="btn btn-block btn-info ">Generate Password</button>
       </div>
     </div>
-    <script src="script.js"></script>
+  </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="script.js" ></script>
   </body>
 </html>
