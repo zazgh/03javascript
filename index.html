@@ -18,14 +18,31 @@
           <h2>Generate a Password</h2>
     </div>
         <div class="card-body">
-          <pre class="text-light bg-light p-5" ></pre>
-          <textarea id="password">Your Secure Password</textarea>
+
+          <textarea
+          readonly
+          id="password"
+          placeholder="Your Secure Password"
+          aria-label="Generate Password">
+        </textarea>
         </div>
-         <button id="password-btn" class="btn btn-block btn-info ">Generate Password</button>
+        <div class="card-footer">
+          <button id="generate" class = "btn">Generate Password</button>
+        </div>
       </div>
     </div>
-  </main>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+          
+
+     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="script.js" ></script>
+    
+     <!---  <pre class="text-light bg-light p-5" ></pre>
+          <textarea id="password">Your Secure Password</textarea>
+        
+         <button id="password-btn" class="btn btn-block btn-info ">Generate Password</button>
+    </div>
+  </main>
+    --> 
+      </div>
   </body>
 </html>
